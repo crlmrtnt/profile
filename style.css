@@ -1,0 +1,113 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffefc1;
+  background-image: url("images/wave-haikei.png");
+  background-repeat:no-repeat;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  justify-content: auto;
+}
+
+h1, h2 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+i {
+  font-size: 32px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: darkred;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: #ffefc1;
+}
+
+ul {
+  padding-inline-start: unset;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  width: 550px;
+  background-color: rgba(250,250,250,1);
+  margin: 40px auto ;
+  border-radius: 8px;
+  box-shadow: 20px 14px 30px rgb(0 0 0 / 5%);
+}
+
+.card:hover{
+  width: 570px;
+}
+
+.btn {
+  text-decoration: none;
+  color: darkred;
+  background-color: transparent;
+  border: 2px darkred solid;
+  padding: 16px;
+  margin: 20px;
+  transition-duration: 0.6s;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: darkred;
+  background-color: white;
+  padding: 16px;
+  margin: 20px;
+}
+
+
+.btn {
+  background-color: white;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 12px 10px 10px rgb(0 0 0 / 3%);
+  margin: 30px;
+}
+
+#profile-pic {
+  width: 190px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 5%);
+  animation-duration: 3s;
+}
+
+#profile-pic:hover {
+  background: linear-gradient(90deg, rgba(185,10,10,0.8) 0%, rgba(130,47,126,0.8) 32%, rgba(74,197,218,0.8) 100%);
+  transition-duration: 0.5s;
+}
